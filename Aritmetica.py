@@ -6,4 +6,4 @@ class Aritmetica(progresion):
         self.incremento = incremento
 
     def avanzar(self):
-        self.valor += self.incremento
+        self.start += self.incremento

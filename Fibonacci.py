@@ -7,5 +7,5 @@ class Fibonacci(progresion):
     
     def avanzar(self):
         temp = self.prev
-        self.prev = self.valor
-        self.valor = temp
+        self.prev = self.start
+        self.start = temp

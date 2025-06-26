@@ -1,11 +1,11 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 class progresion(ABC):
     def __init__(self, start):
         self.start = start
 
     def sigValor(self):
-        temp = self.valor
+        temp = self.start
         self.avanzar()
         return temp
     
@@ -14,6 +14,6 @@ class progresion(ABC):
             print(self.sigValor(), end=' ')
         print()
 
-    @abstractclassmethod
+    @abstractmethod
     def avanzar(self):
         pass

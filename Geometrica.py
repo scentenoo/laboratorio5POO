@@ -6,4 +6,4 @@ class Geometrica(progresion):
         self.base = base
     
     def avanzar(self):
-        self.valor *= self.base
+        self.start *= self.base
