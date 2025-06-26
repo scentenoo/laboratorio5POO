@@ -8,4 +8,4 @@ class Fibonacci(progresion):
     def avanzar(self):
         temp = self.prev
         self.prev = self.start
-        self.start = temp
+        self.start += temp
